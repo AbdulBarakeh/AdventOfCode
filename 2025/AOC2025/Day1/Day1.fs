@@ -1,4 +1,6 @@
 module Day1
+open System
+
 let run() = 
 
     printfn "Hello from F#"
@@ -6,14 +8,14 @@ let run() =
     let mutable pos=50
 
     let lineSplitter(line:string)=[|string line.[0];line.Substring(1)|]
-    let lines = System.IO.File.ReadLines(@$"C:\Users\Abdul-mbb\Documents\Repo\AdventOfCode\2025\AOC2025\Day1\input.txt")
+    let path = Environment.CurrentDirectory
+    let lines = System.IO.File.ReadLines(@$"{path}\Day1\input.txt")
     for line in lines do
         let parts=lineSplitter(line)
         if char(parts[0]) = 'R' then
             let num = System.Int32.Parse(parts[1])
             for _ = 1 to num do
                 if pos+1 = 100 then
-                    ZeroIncrementer <- ZeroIncrementer + 1
                     pos <- 0
                 else
                     pos <- pos + 1
@@ -24,7 +26,6 @@ let run() =
             let num = System.Int32.Parse(parts[1])
             for _ = 1 to num do
                 if pos-1 = -1 then
-                    ZeroIncrementer <- ZeroIncrementer + 1
                     pos <- 99
                 else
                     pos <- pos - 1

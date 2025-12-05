@@ -8,17 +8,17 @@
     ".NETCoreApp,Version=v10.0": {
       "AOC2025/1.0.0": {
         "dependencies": {
-          "FSharp.Core": "10.0.100-rc2.25502.107"
+          "FSharp.Core": "10.0.100"
         },
         "runtime": {
           "AOC2025.dll": {}
         }
       },
-      "FSharp.Core/10.0.100-rc2.25502.107": {
+      "FSharp.Core/10.0.100": {
         "runtime": {
           "lib/netstandard2.1/FSharp.Core.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.1.25.50307"
+            "fileVersion": "10.1.25.52411"
           }
         },
         "resources": {
@@ -71,12 +71,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FSharp.Core/10.0.100-rc2.25502.107": {
+    "FSharp.Core/10.0.100": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Okdz/5v2gzOIpi62AKbPx8sNRmaYq9mKeylNek7dN7Hcs0VAkCSrc2z7O61R00z0w44LZmSd4f5UD2PbZP8kQA==",
-      "path": "fsharp.core/10.0.100-rc2.25502.107",
-      "hashPath": "fsharp.core.10.0.100-rc2.25502.107.nupkg.sha512"
+      "sha512": "sha512-c/r6T/HE9MWL0O0OispLtaKhVwDsiYQlLS249LoxSo1HNH/wfc0f5DE4pI6WpTXkCEdeXa66K5f9FmKLr/0cmw==",
+      "path": "fsharp.core/10.0.100",
+      "hashPath": "fsharp.core.10.0.100.nupkg.sha512"
     }
   }
 }
