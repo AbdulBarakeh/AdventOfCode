@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Abdul-mbb\\Documents\\Repo\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj": {}
+    "C:\\Users\\Abdul-mbb\\Documents\\Repo\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj": {}
   },
   "projects": {
-    "c:\\Users\\Abdul-mbb\\Documents\\Repo\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj": {
+    "C:\\Users\\Abdul-mbb\\Documents\\Repo\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Abdul-mbb\\Documents\\Repo\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj",
+        "projectUniqueName": "C:\\Users\\Abdul-mbb\\Documents\\Repo\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj",
         "projectName": "AOC2025",
-        "projectPath": "c:\\Users\\Abdul-mbb\\Documents\\Repo\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj",
+        "projectPath": "C:\\Users\\Abdul-mbb\\Documents\\Repo\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj",
         "packagesPath": "C:\\Users\\Abdul-mbb\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Abdul-mbb\\Documents\\Repo\\AdventOfCode\\2025\\AOC2025\\obj\\",
+        "outputPath": "C:\\Users\\Abdul-mbb\\Documents\\Repo\\AdventOfCode\\2025\\AOC2025\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abdul-mbb\\AppData\\Roaming\\NuGet\\NuGet.Config"

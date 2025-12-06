@@ -13,7 +13,6 @@ let run() =
             let num = System.Int32.Parse(parts[1])
             for _ = 1 to num do
                 if pos+1 = 100 then
-                    ZeroIncrementer <- ZeroIncrementer + 1
                     pos <- 0
                 else
                     pos <- pos + 1
@@ -24,7 +23,6 @@ let run() =
             let num = System.Int32.Parse(parts[1])
             for _ = 1 to num do
                 if pos-1 = -1 then
-                    ZeroIncrementer <- ZeroIncrementer + 1
                     pos <- 99
                 else
                     pos <- pos - 1
