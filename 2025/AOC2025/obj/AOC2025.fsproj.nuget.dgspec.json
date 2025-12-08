@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Repositories\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj": {}
+    "C:\\Repositories\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj": {}
   },
   "projects": {
-    "c:\\Repositories\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj": {
+    "C:\\Repositories\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Repositories\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj",
+        "projectUniqueName": "C:\\Repositories\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj",
         "projectName": "AOC2025",
-        "projectPath": "c:\\Repositories\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj",
+        "projectPath": "C:\\Repositories\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj",
         "packagesPath": "C:\\Users\\au590917\\.nuget\\packages\\",
-        "outputPath": "c:\\Repositories\\AdventOfCode\\2025\\AOC2025\\obj\\",
+        "outputPath": "C:\\Repositories\\AdventOfCode\\2025\\AOC2025\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

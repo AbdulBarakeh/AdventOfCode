@@ -1,20 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xpH7uhdYWCw=",
+  "dgSpecHash": "ZhQDJFBgvXk=",
   "success": true,
-  "projectFilePath": "c:\\Repositories\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj",
+  "projectFilePath": "C:\\Repositories\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\au590917\\.nuget\\packages\\fsharp.core\\10.0.100\\fsharp.core.10.0.100.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problem reading the cache file c:\\Repositories\\AdventOfCode\\2025\\AOC2025\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "c:\\Repositories\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj",
-      "warningLevel": 1,
-      "filePath": "c:\\Repositories\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }
