@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZhQDJFBgvXk=",
+  "dgSpecHash": "FPgjyGt9+ck=",
   "success": true,
-  "projectFilePath": "C:\\Repositories\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj",
+  "projectFilePath": "C:\\Users\\Abdul-mbb\\Documents\\Repo\\AdventOfCode\\2025\\AOC2025\\AOC2025.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\au590917\\.nuget\\packages\\fsharp.core\\10.0.100\\fsharp.core.10.0.100.nupkg.sha512"
+    "C:\\Users\\Abdul-mbb\\.nuget\\packages\\fsharp.core\\10.0.100-rc2.25502.107\\fsharp.core.10.0.100-rc2.25502.107.nupkg.sha512"
   ],
   "logs": []
 }
