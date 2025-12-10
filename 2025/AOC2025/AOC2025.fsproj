@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -11,6 +11,13 @@
     <Compile Include="Day3/Day3.fs" />
     <Compile Include="Day4/Day4.fs" />
     <Compile Include="Day5/Day5.fs" />
+    <Compile Include="Day6/Day6.fs" />
+    <Compile Include="Day7/Day7.fs" />
+    <Compile Include="Day8/Day8.fs" />
+    <Compile Include="Day9/Day9.fs" />
+    <Compile Include="Day10/Day10.fs" />
+    <Compile Include="Day11/Day11.fs" />
+    <Compile Include="Day12/Day12.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
