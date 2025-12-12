@@ -2,7 +2,8 @@ module Day6
 let run() = 
 
     printfn "Hello from F# Day6"
-    let inputRaw = System.IO.File.ReadAllText(@$"C:\Repositories\AdventOfCode\2025\AOC2025\Day6\input.txt")
+    let path = System.Environment.CurrentDirectory
+    let inputRaw = System.IO.File.ReadAllText(@$"{path}\Day6\input.txt")
     // Convert to matrix
     let matrix = inputRaw.Split('\n') 
                 |> Array.map(fun x -> x.Trim())          
