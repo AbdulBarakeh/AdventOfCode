@@ -2,7 +2,6 @@ module Day8
 
 open System
 open System.IO
-open System.Collections.Generic
 
 
 type JunctionBox(x: float, y: float, z: float) =
@@ -50,7 +49,6 @@ let run() =
     let inputPath = $@"{path}\Day8\input.txt"
     let lines = File.ReadLines(inputPath)
 
-    // Read junction boxes
     let junctionBoxes = ResizeArray<JunctionBox>()
     let paths = ResizeArray<(float * int * int)>()
 
@@ -86,18 +84,13 @@ let run() =
             connections <- connections + 1
     
 
-    let componentSizes =
+    let result =
         parentSet
         |> Array.mapi (fun i _ -> Find(i, parentSet))
         |> Array.countBy id
         |> Array.map snd
         |> Array.sortDescending
-
-    // Compute result
-    let result =
-        componentSizes
-        |> Array.sortDescending
         |> Array.take 3
         |> Array.reduce(*)
-
+    
     printfn "Answer: %d" result
